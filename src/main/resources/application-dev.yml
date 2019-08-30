@@ -1,0 +1,15 @@
+logging:
+  file: my.log
+  level:
+    org.springframework: info
+server:
+  port: 8080
+spring:
+  devtools:
+    add-properties: false
+
+
+zoom:
+  app: app
+  auth: justin
+  scope: a b c d

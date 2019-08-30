@@ -1,0 +1,10 @@
+
+logging:
+  file: my.log
+  level:
+    org.springframework: debug
+server:
+  port: 8080
+spring:
+  devtools:
+    add-properties: false
